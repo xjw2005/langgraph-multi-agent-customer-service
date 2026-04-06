@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: xjw2005123/langgraph-customer-service
+  IMAGE_NAME: xjw2005123/langgraph-service
 
 jobs:
   build:
@@ -59,6 +59,8 @@ jobs:
         platforms: linux/amd64
         provenance: false
         sbom: false
+      env:
+        DOCKER_BUILDKIT: 1
 
   # 可选：部署到测试环境
   deploy-staging:
