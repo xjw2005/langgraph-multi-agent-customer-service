@@ -40,8 +40,13 @@ COPY services/ ./services/
 COPY rag/ ./rag/
 COPY examples/ ./examples/
 
+# 复制数据文件和数据库
+COPY data/ ./data/
+COPY chroma_db/ ./chroma_db/
+COPY *.db ./
+
 # 创建必要的目录
-RUN mkdir -p data logs
+RUN mkdir -p logs
 
 # 设置Python路径
 ENV PATH=/root/.local/bin:$PATH
