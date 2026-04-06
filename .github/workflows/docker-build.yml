@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: xjw2005/langgraph-customer-service
+  IMAGE_NAME: xjw2005123/langgraph-customer-service
 
 jobs:
   build:
