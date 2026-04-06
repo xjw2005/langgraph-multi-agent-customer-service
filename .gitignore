@@ -204,6 +204,8 @@ cache/
 /*
 !/智能客服系统/
 !/智能客服系统/**
+!/.github/
+!/.github/**
 
 # But include this project's gitignore
 !.gitignore
