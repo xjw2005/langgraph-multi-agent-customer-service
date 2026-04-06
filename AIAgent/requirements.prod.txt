@@ -1,0 +1,41 @@
+# 生产环境精简依赖 - 只包含运行时必需的包
+
+# 核心框架
+langgraph>=0.0.40
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.0.8
+langchain-community>=0.0.20
+
+# OpenAI
+openai>=1.12.0
+
+# 数据验证
+pydantic>=2.5.0
+
+# Web框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# 环境配置
+python-dotenv>=1.0.0
+
+# HTTP请求
+httpx>=0.25.0
+
+# 数据库异步支持
+aiosqlite>=0.20.0
+
+# 类型提示扩展
+typing_extensions>=4.8.0
+
+# 基础数据处理（如果需要）
+pandas>=2.0.0
+numpy>=1.24.0
+
+# 如果使用RAG功能
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
+
+# 中文分词（如果需要）
+jieba>=0.42.1
