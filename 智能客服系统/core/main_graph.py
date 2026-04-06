@@ -1,7 +1,9 @@
 from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.sqlite import SqliteSaver
 from core.states import CustomerServiceState, AgentType, ConversationStage
-from core.router import RouterAgent
+from agents.master_agent import MasterAgent
+from agents.qa_agent import ProfessionalQAAgent
+from agents.selection_agent import SelectionAgent
 from agents.order_agent import OrderAgent
 from agents.product_agent import ProductAgent
 from services.database_service import DatabaseService
@@ -12,11 +14,17 @@ import time
 import uuid
 
 class CustomerServiceSystem:
-    """智能客服系统主类"""
+    """高端母婴智能客服系统主类"""
 
     def __init__(self):
         self.db_service = DatabaseService()
-        self.router_agent = RouterAgent()
+
+        # 初始化新的Agent系统
+        self.master_agent = MasterAgent()
+        self.qa_agent = ProfessionalQAAgent()
+        self.selection_agent = SelectionAgent()
+
+        # 保留原有Agent（兼容性）
         self.order_agent = OrderAgent()
         self.product_agent = ProductAgent()
 
@@ -28,44 +36,51 @@ class CustomerServiceSystem:
 
         # 构建主工作流
         self.app = self._build_main_graph()
-        print("🤖 智能客服系统初始化完成")
+        print("🤖 高端母婴智能客服系统初始化完成")
 
     def _build_main_graph(self) -> StateGraph:
         """构建主工作流图"""
-        print("🔧 构建客服系统工作流...")
+        print("🔧 构建高端母婴客服系统工作流...")
 
         # 创建状态图
         graph = StateGraph(CustomerServiceState)
 
         # 添加节点
-        graph.add_node("router", self._router_node)
+        graph.add_node("master_agent", self._master_agent_node)
+        graph.add_node("qa_agent", self._qa_agent_node)
+        graph.add_node("selection_agent", self._selection_agent_node)
         graph.add_node("order_agent", self._order_agent_node)
         graph.add_node("product_agent", self._product_agent_node)
         graph.add_node("human_handoff", self._human_handoff_node)
+        graph.add_node("master_synthesis", self._master_synthesis_node)
         graph.add_node("history_recorder", self._history_recorder_node)
-        graph.add_node("response_generator", self._response_generator_node)
 
         # 设置入口点
-        graph.add_edge(START, "router")
+        graph.add_edge(START, "master_agent")
 
-        # 路由后的条件边
+        # Master Agent后的条件边
         graph.add_conditional_edges(
-            "router",
+            "master_agent",
             self._route_to_agent,
             {
+                "qa_agent": "qa_agent",
+                "selection_agent": "selection_agent",
+                "master_agent": "master_synthesis",  # MasterAgent直接处理也要经过synthesis
                 AgentType.ORDER: "order_agent",
                 AgentType.PRODUCT: "product_agent",
                 AgentType.HUMAN: "human_handoff"
             }
         )
 
-        # Agent处理后的边
-        graph.add_edge("order_agent", "response_generator")
-        graph.add_edge("product_agent", "response_generator")
-        graph.add_edge("human_handoff", "response_generator")
+        # 各Agent处理后都到Master合成
+        graph.add_edge("qa_agent", "master_synthesis")
+        graph.add_edge("selection_agent", "master_synthesis")
+        graph.add_edge("order_agent", "master_synthesis")
+        graph.add_edge("product_agent", "master_synthesis")
+        graph.add_edge("human_handoff", "master_synthesis")
 
-        # 响应生成后记录历史
-        graph.add_edge("response_generator", "history_recorder")
+        # Master合成后记录历史
+        graph.add_edge("master_synthesis", "history_recorder")
         graph.add_edge("history_recorder", END)
 
         # 编译图
@@ -74,12 +89,24 @@ class CustomerServiceSystem:
             interrupt_before=["human_handoff"]  # 人工介入前中断
         )
 
-        print("✅ 工作流构建完成")
+        print("✅ 高端母婴客服工作流构建完成")
         return compiled_graph
 
-    def _router_node(self, state: CustomerServiceState) -> dict:
-        """路由节点"""
-        return self.router_agent.route_message(state)
+    def _master_agent_node(self, state: CustomerServiceState) -> dict:
+        """Master Agent节点"""
+        return self.master_agent.process(state)
+
+    def _qa_agent_node(self, state: CustomerServiceState) -> dict:
+        """专业问答Agent节点"""
+        return self.qa_agent.process(state)
+
+    def _selection_agent_node(self, state: CustomerServiceState) -> dict:
+        """选品Agent节点"""
+        return self.selection_agent.process(state)
+
+    def _master_synthesis_node(self, state: CustomerServiceState) -> dict:
+        """Master Agent合成节点"""
+        return self.master_agent.synthesize_response(state)
 
     def _order_agent_node(self, state: CustomerServiceState) -> dict:
         """订单Agent节点"""
@@ -135,29 +162,16 @@ class CustomerServiceSystem:
             print(f"❌ 历史记录保存失败: {e}")
             return {"processing_steps": state.get("processing_steps", [])}
 
-    def _response_generator_node(self, state: CustomerServiceState) -> dict:
-        """响应生成节点"""
-        # 检查是否需要生成额外响应
-        messages = state.get("messages", [])
-
-        # 如果Agent已经生成了响应，直接返回
-        if messages and isinstance(messages[-1], AIMessage):
-            return {}
-
-        # 生成默认响应
-        default_response = "感谢您的咨询，如有其他问题请随时联系我们。"
-        return {
-            "messages": [AIMessage(content=default_response)]
-        }
-
     def _route_to_agent(self, state: CustomerServiceState) -> str:
         """路由决策函数"""
         # 检查是否需要人工介入
-        if self.router_agent.should_escalate_to_human(state):
+        if self.master_agent.should_escalate_to_human(state):
             return AgentType.HUMAN
 
-        # 根据选择的Agent路由
-        selected_agent = state.get("selected_agent", AgentType.PRODUCT)
+        # 根据Master Agent选择的Agent路由
+        selected_agent = state.get("selected_agent", "qa_agent")
+
+        # 所有情况都要经过正常流程，确保记忆功能正常
         return selected_agent
 
     def process_message(self, user_id: str, message: str, session_id: str = None) -> dict:

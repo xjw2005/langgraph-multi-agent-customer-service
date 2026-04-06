@@ -1,4 +1,9 @@
 from typing import TypedDict, Annotated, List, Dict, Any, Optional
+try:
+    from typing import NotRequired
+except ImportError:
+    from typing_extensions import NotRequired
+
 from langgraph.graph import add_messages
 from langchain_core.messages import BaseMessage
 
@@ -41,6 +46,23 @@ class CustomerServiceState(TypedDict):
     start_time: float             # 处理开始时间
     processing_time: float        # 总处理时间
     agent_performance: Dict[str, float]  # 各Agent性能指标
+
+    # === Supervisor–Worker 扩展（设计文档 2026-04-05）===
+    supervisor_plan: NotRequired[Dict[str, Any]]
+    current_round: NotRequired[int]
+    max_rounds: NotRequired[int]
+    worker_results: NotRequired[Dict[str, Any]]
+    active_workers: NotRequired[List[str]]
+    worker_confidence: NotRequired[Dict[str, float]]
+    completion_criteria: NotRequired[Dict[str, Any]]
+    next_action: NotRequired[str]
+    task_complexity: NotRequired[str]
+    next_worker: NotRequired[str]
+    task_completed: NotRequired[bool]
+    task_analysis: NotRequired[Dict[str, Any]]
+    draft_reply: NotRequired[str]
+    worker_dependencies: NotRequired[Dict[str, List[str]]]
+    parallel_execution: NotRequired[bool]
 
 class OrderQueryState(TypedDict):
     """订单查询子状态"""
@@ -119,6 +141,8 @@ class ConversationStage:
     INTENT_RECOGNITION = "intent_recognition"
     INFORMATION_GATHERING = "information_gathering"
     PROCESSING = "processing"
+    AGENT_PROCESSING = "agent_processing"  # 添加缺失的属性
     CONFIRMATION = "confirmation"
     COMPLETED = "completed"
     ESCALATED = "escalated"
+    ERROR = "error"  # 添加缺失的属性

@@ -1,0 +1,1379 @@
+{
+  "products": [
+    {
+      "product_id": "formula_001",
+      "name": "白金版幼儿配方奶粉",
+      "brand": "爱他美",
+      "category": "奶粉",
+      "price": 358.0,
+      "age_range": "3-6个月",
+      "sub_category": "1段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "易消化",
+        "营养均衡",
+        "接近母乳"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "DHA+ARA",
+        "益生元组合",
+        "乳铁蛋白"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "欧盟标准",
+        "有机认证"
+      ],
+      "origin_country": "德国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.8,
+      "user_rating": 4.6,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 15420,
+      "popularity_score": 4.7,
+      "created_at": "2026-04-05T12:00:55.497271",
+      "updated_at": "2026-04-05T12:00:55.497291",
+      "tags": [
+        "进口",
+        "有机",
+        "DHA"
+      ]
+    },
+    {
+      "product_id": "formula_002",
+      "name": "金装较大婴儿配方奶粉",
+      "brand": "美素佳儿",
+      "category": "奶粉",
+      "price": 298.0,
+      "age_range": "6-12个月",
+      "sub_category": "2段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "营养全面",
+        "易吸收",
+        "增强免疫"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "天然乳脂",
+        "双重益生元",
+        "核苷酸"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "欧盟标准"
+      ],
+      "origin_country": "荷兰",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.6,
+      "user_rating": 4.4,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 12800,
+      "popularity_score": 4.5,
+      "created_at": "2026-04-05T12:00:55.497301",
+      "updated_at": "2026-04-05T12:00:55.497303",
+      "tags": [
+        "进口",
+        "天然",
+        "营养"
+      ]
+    },
+    {
+      "product_id": "formula_003",
+      "name": "超级能恩幼儿配方奶粉",
+      "brand": "雀巢",
+      "category": "奶粉",
+      "price": 268.0,
+      "age_range": "12-24个月",
+      "sub_category": "3段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "适度水解",
+        "防过敏",
+        "易消化"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "适度水解蛋白",
+        "益生菌",
+        "DHA"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "欧盟标准"
+      ],
+      "origin_country": "瑞士",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.5,
+      "user_rating": 4.3,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 9800,
+      "popularity_score": 4.4,
+      "created_at": "2026-04-05T12:00:55.497308",
+      "updated_at": "2026-04-05T12:00:55.497309",
+      "tags": [
+        "防过敏",
+        "水解蛋白"
+      ]
+    },
+    {
+      "product_id": "formula_004",
+      "name": "启赋有机婴儿配方奶粉",
+      "brand": "惠氏",
+      "category": "奶粉",
+      "price": 398.0,
+      "age_range": "0-3个月",
+      "sub_category": "1段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "有机认证",
+        "亲和人体",
+        "营养全面"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "OPO结构脂",
+        "α-乳清蛋白",
+        "叶黄素"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "有机认证",
+        "欧盟标准"
+      ],
+      "origin_country": "爱尔兰",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.7,
+      "user_rating": 4.5,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 11200,
+      "popularity_score": 4.6,
+      "created_at": "2026-04-05T12:00:55.497313",
+      "updated_at": "2026-04-05T12:00:55.497314",
+      "tags": [
+        "有机",
+        "OPO",
+        "高端"
+      ]
+    },
+    {
+      "product_id": "formula_005",
+      "name": "皇家美素力婴儿奶粉",
+      "brand": "美素力",
+      "category": "奶粉",
+      "price": 328.0,
+      "age_range": "3-6个月",
+      "sub_category": "2段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "荷兰奶源",
+        "营养均衡",
+        "易吸收"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "天然营养",
+        "益生元",
+        "核苷酸"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "欧盟标准"
+      ],
+      "origin_country": "荷兰",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.4,
+      "user_rating": 4.2,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 8900,
+      "popularity_score": 4.3,
+      "created_at": "2026-04-05T12:00:55.497319",
+      "updated_at": "2026-04-05T12:00:55.497320",
+      "tags": [
+        "荷兰",
+        "天然"
+      ]
+    },
+    {
+      "product_id": "formula_006",
+      "name": "金领冠珍护婴儿奶粉",
+      "brand": "伊利",
+      "category": "奶粉",
+      "price": 238.0,
+      "age_range": "0-3个月",
+      "sub_category": "1段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "中国配方",
+        "营养科学",
+        "性价比高"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "α+β蛋白组合",
+        "BID益生菌",
+        "DHA"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "国标认证"
+      ],
+      "origin_country": "中国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.3,
+      "user_rating": 4.1,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 18500,
+      "popularity_score": 4.2,
+      "created_at": "2026-04-05T12:00:55.497324",
+      "updated_at": "2026-04-05T12:00:55.497325",
+      "tags": [
+        "国产",
+        "性价比"
+      ]
+    },
+    {
+      "product_id": "formula_007",
+      "name": "飞鹤星飞帆婴儿奶粉",
+      "brand": "飞鹤",
+      "category": "奶粉",
+      "price": 298.0,
+      "age_range": "6-12个月",
+      "sub_category": "2段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "更适合中国宝宝",
+        "营养全面",
+        "易消化"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "OPO结构脂",
+        "水解乳清蛋白",
+        "益生菌"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "国标认证"
+      ],
+      "origin_country": "中国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.4,
+      "user_rating": 4.2,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 16800,
+      "popularity_score": 4.3,
+      "created_at": "2026-04-05T12:00:55.497328",
+      "updated_at": "2026-04-05T12:00:55.497329",
+      "tags": [
+        "国产",
+        "适合中国宝宝"
+      ]
+    },
+    {
+      "product_id": "formula_008",
+      "name": "诺优能婴幼儿配方奶粉",
+      "brand": "诺优能",
+      "category": "奶粉",
+      "price": 278.0,
+      "age_range": "12-24个月",
+      "sub_category": "3段奶粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "荷兰品质",
+        "营养均衡",
+        "口感好"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "天然营养",
+        "益生元",
+        "DHA+ARA"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "欧盟标准"
+      ],
+      "origin_country": "荷兰",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.3,
+      "user_rating": 4.1,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 7600,
+      "popularity_score": 4.2,
+      "created_at": "2026-04-05T12:00:55.497332",
+      "updated_at": "2026-04-05T12:00:55.497333",
+      "tags": [
+        "荷兰",
+        "营养"
+      ]
+    },
+    {
+      "product_id": "diaper_001",
+      "name": "妙而舒瞬爽透气纸尿裤",
+      "brand": "花王",
+      "category": "纸尿裤",
+      "price": 89.0,
+      "age_range": "0-3个月",
+      "sub_category": "NB码",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "敏感肌肤",
+        "超薄透气",
+        "防漏"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "3D立体防漏",
+        "天然棉柔表层",
+        "瞬吸芯体"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "ISO认证"
+      ],
+      "origin_country": "日本",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.7,
+      "user_rating": 4.5,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 28500,
+      "popularity_score": 4.6,
+      "created_at": "2026-04-05T12:00:55.497337",
+      "updated_at": "2026-04-05T12:00:55.497338",
+      "tags": [
+        "日本",
+        "透气",
+        "防漏"
+      ]
+    },
+    {
+      "product_id": "diaper_002",
+      "name": "帮宝适一级帮纸尿裤",
+      "brand": "帮宝适",
+      "category": "纸尿裤",
+      "price": 128.0,
+      "age_range": "3-6个月",
+      "sub_category": "S码",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "12小时干爽",
+        "柔软舒适",
+        "防漏"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "3倍锁水珠珠",
+        "360°弹性腰围",
+        "羽柔内表层"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "FDA认证"
+      ],
+      "origin_country": "美国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.6,
+      "user_rating": 4.4,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 22000,
+      "popularity_score": 4.5,
+      "created_at": "2026-04-05T12:00:55.497343",
+      "updated_at": "2026-04-05T12:00:55.497344",
+      "tags": [
+        "美国",
+        "12小时",
+        "柔软"
+      ]
+    },
+    {
+      "product_id": "diaper_003",
+      "name": "好奇金装成长裤",
+      "brand": "好奇",
+      "category": "纸尿裤",
+      "price": 98.0,
+      "age_range": "6-12个月",
+      "sub_category": "M码拉拉裤",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "学步期",
+        "360°贴合",
+        "透气"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "360°弹性腰围",
+        "立体防漏",
+        "透气腰贴"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "FDA认证"
+      ],
+      "origin_country": "美国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.5,
+      "user_rating": 4.3,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 19800,
+      "popularity_score": 4.4,
+      "created_at": "2026-04-05T12:00:55.497347",
+      "updated_at": "2026-04-05T12:00:55.497348",
+      "tags": [
+        "学步",
+        "拉拉裤"
+      ]
+    },
+    {
+      "product_id": "diaper_004",
+      "name": "尤妮佳皇家moony纸尿裤",
+      "brand": "尤妮佳",
+      "category": "纸尿裤",
+      "price": 118.0,
+      "age_range": "0-3个月",
+      "sub_category": "NB码",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "日本制造",
+        "超柔软",
+        "透气"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "天然有机棉",
+        "立体防漏",
+        "透气背膜"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "ISO认证"
+      ],
+      "origin_country": "日本",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.8,
+      "user_rating": 4.6,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 15600,
+      "popularity_score": 4.7,
+      "created_at": "2026-04-05T12:00:55.497352",
+      "updated_at": "2026-04-05T12:00:55.497353",
+      "tags": [
+        "日本",
+        "有机棉",
+        "高端"
+      ]
+    },
+    {
+      "product_id": "diaper_005",
+      "name": "安儿乐薄薄芯纸尿裤",
+      "brand": "安儿乐",
+      "category": "纸尿裤",
+      "price": 68.0,
+      "age_range": "3-6个月",
+      "sub_category": "S码",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "超薄设计",
+        "性价比高",
+        "透气"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "薄薄芯体",
+        "柔软表层",
+        "弹性腰围"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "国标认证"
+      ],
+      "origin_country": "中国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.2,
+      "user_rating": 4.0,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 32000,
+      "popularity_score": 4.1,
+      "created_at": "2026-04-05T12:00:55.497356",
+      "updated_at": "2026-04-05T12:00:55.497357",
+      "tags": [
+        "国产",
+        "性价比",
+        "超薄"
+      ]
+    },
+    {
+      "product_id": "diaper_006",
+      "name": "大王天使纸尿裤",
+      "brand": "大王",
+      "category": "纸尿裤",
+      "price": 108.0,
+      "age_range": "6-12个月",
+      "sub_category": "L码",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "敏感肌",
+        "超柔软",
+        "透气"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "天然维E护肤",
+        "4层锁水",
+        "360°透气"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "ISO认证"
+      ],
+      "origin_country": "日本",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.6,
+      "user_rating": 4.4,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 13200,
+      "popularity_score": 4.5,
+      "created_at": "2026-04-05T12:00:55.497360",
+      "updated_at": "2026-04-05T12:00:55.497361",
+      "tags": [
+        "日本",
+        "维E",
+        "敏感肌"
+      ]
+    },
+    {
+      "product_id": "babyfood_001",
+      "name": "有机婴儿米粉",
+      "brand": "嘉宝",
+      "category": "辅食",
+      "price": 45.0,
+      "age_range": "6-12个月",
+      "sub_category": "米粉",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "首次辅食",
+        "易消化",
+        "营养强化"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "有机认证",
+        "铁强化",
+        "无添加"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "有机认证",
+        "FDA认证"
+      ],
+      "origin_country": "美国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.5,
+      "user_rating": 4.3,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 8900,
+      "popularity_score": 4.4,
+      "created_at": "2026-04-05T12:00:55.497365",
+      "updated_at": "2026-04-05T12:00:55.497366",
+      "tags": [
+        "有机",
+        "辅食",
+        "营养"
+      ]
+    },
+    {
+      "product_id": "babyfood_002",
+      "name": "婴儿营养面条",
+      "brand": "亨氏",
+      "category": "辅食",
+      "price": 32.0,
+      "age_range": "6-12个月",
+      "sub_category": "面条",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "8个月+",
+        "易咀嚼",
+        "营养丰富"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "蔬菜营养",
+        "无盐配方",
+        "易煮烂"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "欧盟标准"
+      ],
+      "origin_country": "意大利",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.3,
+      "user_rating": 4.1,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 12500,
+      "popularity_score": 4.2,
+      "created_at": "2026-04-05T12:00:55.497369",
+      "updated_at": "2026-04-05T12:00:55.497370",
+      "tags": [
+        "面条",
+        "蔬菜",
+        "无盐"
+      ]
+    },
+    {
+      "product_id": "babyfood_003",
+      "name": "果泥套装",
+      "brand": "小皮",
+      "category": "辅食",
+      "price": 68.0,
+      "age_range": "6-12个月",
+      "sub_category": "果泥",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "有机水果",
+        "便携装",
+        "营养丰富"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "100%有机",
+        "无添加糖",
+        "多种口味"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "有机认证",
+        "欧盟标准"
+      ],
+      "origin_country": "英国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.6,
+      "user_rating": 4.4,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 6800,
+      "popularity_score": 4.5,
+      "created_at": "2026-04-05T12:00:55.497373",
+      "updated_at": "2026-04-05T12:00:55.497373",
+      "tags": [
+        "有机",
+        "果泥",
+        "便携"
+      ]
+    },
+    {
+      "product_id": "babyfood_004",
+      "name": "婴儿肉松",
+      "brand": "方广",
+      "category": "辅食",
+      "price": 28.0,
+      "age_range": "6-12个月",
+      "sub_category": "肉松",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "补充蛋白质",
+        "易消化",
+        "无添加"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "纯肉制作",
+        "无盐无糖",
+        "营养丰富"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "国标认证"
+      ],
+      "origin_country": "中国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.2,
+      "user_rating": 4.0,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 15600,
+      "popularity_score": 4.1,
+      "created_at": "2026-04-05T12:00:55.497377",
+      "updated_at": "2026-04-05T12:00:55.497377",
+      "tags": [
+        "肉松",
+        "蛋白质",
+        "无添加"
+      ]
+    },
+    {
+      "product_id": "care_001",
+      "name": "婴儿洗护套装",
+      "brand": "施巴",
+      "category": "护理用品",
+      "price": 128.0,
+      "age_range": "全年龄段",
+      "sub_category": "洗护套装",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "敏感肌肤",
+        "温和无刺激",
+        "保湿"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "pH5.5弱酸性",
+        "无泪配方",
+        "天然成分"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "欧盟标准"
+      ],
+      "origin_country": "德国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.6,
+      "user_rating": 4.4,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 6700,
+      "popularity_score": 4.5,
+      "created_at": "2026-04-05T12:00:55.497381",
+      "updated_at": "2026-04-05T12:00:55.497382",
+      "tags": [
+        "德国",
+        "温和",
+        "敏感肌"
+      ]
+    },
+    {
+      "product_id": "care_002",
+      "name": "婴儿润肤霜",
+      "brand": "强生",
+      "category": "护理用品",
+      "price": 38.0,
+      "age_range": "全年龄段",
+      "sub_category": "润肤霜",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "保湿滋润",
+        "温和配方",
+        "日常护理"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "天然保湿",
+        "无香料",
+        "低敏配方"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "FDA认证"
+      ],
+      "origin_country": "美国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.3,
+      "user_rating": 4.1,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 25600,
+      "popularity_score": 4.2,
+      "created_at": "2026-04-05T12:00:55.497387",
+      "updated_at": "2026-04-05T12:00:55.497387",
+      "tags": [
+        "保湿",
+        "温和",
+        "经典"
+      ]
+    },
+    {
+      "product_id": "care_003",
+      "name": "婴儿护臀膏",
+      "brand": "贝亲",
+      "category": "护理用品",
+      "price": 48.0,
+      "age_range": "全年龄段",
+      "sub_category": "护臀膏",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "预防红屁股",
+        "修护肌肤",
+        "温和配方"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "氧化锌配方",
+        "天然植物",
+        "快速修护"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "ISO认证"
+      ],
+      "origin_country": "日本",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.5,
+      "user_rating": 4.3,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 18900,
+      "popularity_score": 4.4,
+      "created_at": "2026-04-05T12:00:55.497390",
+      "updated_at": "2026-04-05T12:00:55.497391",
+      "tags": [
+        "护臀",
+        "修护",
+        "日本"
+      ]
+    },
+    {
+      "product_id": "care_004",
+      "name": "婴儿湿巾",
+      "brand": "好奇",
+      "category": "护理用品",
+      "price": 25.0,
+      "age_range": "全年龄段",
+      "sub_category": "湿巾",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "清洁护理",
+        "便携使用",
+        "温和无刺激"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "纯水配方",
+        "加厚材质",
+        "便携包装"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "FDA认证"
+      ],
+      "origin_country": "美国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.2,
+      "user_rating": 4.0,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 45600,
+      "popularity_score": 4.1,
+      "created_at": "2026-04-05T12:00:55.497394",
+      "updated_at": "2026-04-05T12:00:55.497395",
+      "tags": [
+        "湿巾",
+        "便携",
+        "清洁"
+      ]
+    },
+    {
+      "product_id": "toy_001",
+      "name": "早教益智玩具套装",
+      "brand": "费雪",
+      "category": "玩具",
+      "price": 158.0,
+      "age_range": "6-12个月",
+      "sub_category": "益智玩具",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "开发智力",
+        "安全材质",
+        "多功能"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "多感官刺激",
+        "安全材质",
+        "教育功能"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "FDA认证"
+      ],
+      "origin_country": "美国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.7,
+      "user_rating": 4.5,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 8900,
+      "popularity_score": 4.6,
+      "created_at": "2026-04-05T12:00:55.497399",
+      "updated_at": "2026-04-05T12:00:55.497400",
+      "tags": [
+        "益智",
+        "早教",
+        "安全"
+      ]
+    },
+    {
+      "product_id": "toy_002",
+      "name": "婴儿摇铃玩具",
+      "brand": "澳贝",
+      "category": "玩具",
+      "price": 68.0,
+      "age_range": "0-3个月",
+      "sub_category": "摇铃",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "感官发育",
+        "抓握训练",
+        "安全材质"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "柔和音效",
+        "安全材质",
+        "易抓握"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "国标认证"
+      ],
+      "origin_country": "中国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.3,
+      "user_rating": 4.1,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 15600,
+      "popularity_score": 4.2,
+      "created_at": "2026-04-05T12:00:55.497403",
+      "updated_at": "2026-04-05T12:00:55.497404",
+      "tags": [
+        "摇铃",
+        "感官",
+        "国产"
+      ]
+    },
+    {
+      "product_id": "toy_003",
+      "name": "婴儿健身架",
+      "brand": "谷雨",
+      "category": "玩具",
+      "price": 198.0,
+      "age_range": "3-6个月",
+      "sub_category": "健身架",
+      "original_price": null,
+      "currency": "CNY",
+      "price_per_unit": null,
+      "suitable_conditions": [
+        "运动发育",
+        "视觉刺激",
+        "多功能"
+      ],
+      "gender_preference": null,
+      "premium_features": [
+        "多功能设计",
+        "音乐灯光",
+        "可调节"
+      ],
+      "key_ingredients": [],
+      "nutritional_info": null,
+      "certifications": [
+        "国标认证"
+      ],
+      "origin_country": "中国",
+      "manufacturing_date": null,
+      "shelf_life": null,
+      "safety_info": {
+        "allergens": [],
+        "warnings": [],
+        "age_restrictions": [],
+        "usage_precautions": []
+      },
+      "description": "",
+      "usage_guide": "",
+      "storage_instructions": "",
+      "specifications": {},
+      "package_info": {},
+      "expert_rating": 4.4,
+      "user_rating": 4.2,
+      "recommendation_reasons": [],
+      "stock_status": "有货",
+      "sales_volume": 7800,
+      "popularity_score": 4.3,
+      "created_at": "2026-04-05T12:00:55.497407",
+      "updated_at": "2026-04-05T12:00:55.497407",
+      "tags": [
+        "健身架",
+        "运动",
+        "多功能"
+      ]
+    }
+  ],
+  "exported_at": "2026-04-05T12:00:55.497894",
+  "total_count": 25
+}

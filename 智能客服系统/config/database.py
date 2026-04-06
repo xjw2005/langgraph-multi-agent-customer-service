@@ -118,7 +118,7 @@ class DatabaseManager:
             """)
 
             conn.commit()
-            print("✅ 数据库初始化完成")
+            print("数据库初始化完成")
 
     def get_connection(self):
         """获取数据库连接"""
