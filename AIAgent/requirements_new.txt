@@ -25,9 +25,6 @@ jieba>=0.42.1
 # 数据验证
 pydantic>=2.5.0
 
-# 数据库
-sqlite3  # Python内置
-
 # Web框架（为后续前端准备）
 fastapi>=0.104.0
 uvicorn[standard]>=0.24.0
@@ -64,7 +61,6 @@ python-dateutil>=2.8.0
 orjson>=3.9.0
 
 # 异步支持
-asyncio  # Python内置
 aiofiles>=23.2.0
 
 # 缓存
@@ -76,77 +72,8 @@ pyyaml>=6.0.0
 # 进度条
 tqdm>=4.66.0
 
-# 数据类支持
-dataclasses  # Python 3.7+内置
-
-# 枚举支持
-enum34>=1.1.10; python_version < '3.4'
-
-# 路径处理
-pathlib  # Python 3.4+内置
-
-# 哈希
-hashlib  # Python内置
-
-# 正则表达式
-re  # Python内置
-
-# 时间
-time  # Python内置
-datetime  # Python内置
-
-# UUID
-uuid  # Python内置
-
-# 系统
-os  # Python内置
-sys  # Python内置
-
-# 数学
-math  # Python内置
-
-# 集合
-collections  # Python内置
-
-# 类型提示
-typing  # Python内置
+# 类型提示扩展
 typing_extensions>=4.8.0
-
-# JSON
-json  # Python内置
-
-# 线程
-threading  # Python内置
-
-# 多进程
-multiprocessing  # Python内置
-
-# 网络
-socket  # Python内置
-
-# 文件操作
-shutil  # Python内置
-glob  # Python内置
-
-# 压缩
-zipfile  # Python内置
-tarfile  # Python内置
-
-# 编码
-base64  # Python内置
-urllib  # Python内置
-
-# 随机
-random  # Python内置
-
-# 复制
-copy  # Python内置
-
-# 警告
-warnings  # Python内置
-
-# 垃圾回收
-gc  # Python内置
 
 # 内存分析（开发用）
 memory-profiler>=0.61.0
@@ -157,3 +84,6 @@ line-profiler>=4.1.0
 # 代码覆盖率（测试用）
 coverage>=7.3.0
 pytest-cov>=4.1.0
+
+# 数据库异步支持
+aiosqlite>=0.20.0
