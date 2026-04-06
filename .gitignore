@@ -200,13 +200,8 @@ tmp/
 cache/
 .cache/
 
-# Exclude everything in parent directories except this project
-/*
-!/智能客服系统/
-!/智能客服系统/**
-!/.github/
-!/.github/**
-
-# But include this project's gitignore
-!.gitignore
-!README.md
+# Virtual environments in subdirectories
+AIAgent/.venv/
+AIAgent/venv/
+智能客服系统/.venv/
+智能客服系统/venv/
